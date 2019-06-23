@@ -55,11 +55,6 @@ ul {
 	width: 250px;
 }
 
-.site-header__logo:hover {
-	/*background-color: #b0da84;*/
-	color: #b0da84;
-}
-
 .site-header__title {
 	margin: 8px;
 	font-size: 16px;
@@ -104,10 +99,10 @@ ul {
 	font-size: 18px;
 }
 
-.navigation__list {
+/*.navigation__list {
 	padding: 0px;
 	margin: 0px;
-}
+}*/
 
 .navigation__item {
 	display: block;
@@ -189,9 +184,9 @@ ul {
 	padding: 20px;
 	border-radius: 04px 04px 04px 04px;
 	display:flex;
-    justify-content: center; /*центрируем элемент по горизонтали */
-    align-items: center; /* и вертикали */
-    overflow: hidden; /* если элемент больше блока-родителя – обрезаем лишнее */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .slide {
@@ -208,13 +203,6 @@ ul {
 
 #switch-3:checked ~ .slide-3 {
 	display: block;
-}
-
-.switcher {
-	width: 16px;
-	height: 16px;
-	background-color: green;
-	display: inline-block;
 }
 
 [name="slider"] {
@@ -449,11 +437,13 @@ ul {
 	}
 
 	.navigation {
+		display: flex;
 		justify-content:space-around;
 		line-height: 20px;
 		font-size: 16px;
 		order: 1;
 		width: 100%;
+		height: auto;
 	}
 
 	.navigation__list {
@@ -468,7 +458,11 @@ ul {
 		padding: 10px 0px 10px 0px;
 	}
 	.navigation__item_active {
-		display: none;
+	/*	display: none;*/
+		position: absolute;
+		left: 94px;
+		top: 42px;
+		padding-right: 5px;
 	}
 
 	.navigation__search {
@@ -533,6 +527,11 @@ ul {
 			.navigation {
 				order: 0;
 			}
+
+			.navigation__list {
+				border-top: 0px solid #f5f5f5;
+			}
+
 			.site-wrap {
 				display: flex;
 				flex-direction: column;

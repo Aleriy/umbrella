@@ -11,3 +11,7 @@ git remote add origin https://github.com/Aleriy/umbrella.git  подключит
 git push -u origin master									  отправить файлы на удалённый сервер
 
 Если удалённый проект не пустой, из него нужно скопировать содержимое в свой проект: git pull origin master (git pull origin master --allow-unrelated-histories)
+
+то именно за опечатка была исправлена, он может просто посмотреть на сами изменения, используя git show или git diff, или git log -p.
+
+https://aleriy.github.io/build/				посмотреть файлы в папке
