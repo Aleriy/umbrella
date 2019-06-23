@@ -1,0 +1,13 @@
+http://cmder.net/ – консоль со встроеным Гитом
+git --version			версия  git
+cd 						путь/к/папке
+~ (тильда) от корня системы.
+git init				Создать репозиторий Git
+git status				Показывает файлы, которые есть в папке, но не добавлены в проект
+git add .				Добавить все файлы
+git commit -m “Добавил папку со всеми файлами домашки №3”
+
+git remote add origin https://github.com/Aleriy/umbrella.git  подключится к репозиторию
+git push -u origin master									  отправить файлы на удалённый сервер
+
+Если удалённый проект не пустой, из него нужно скопировать содержимое в свой проект: git pull origin master (git pull origin master --allow-unrelated-histories)

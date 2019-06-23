@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>khryshenko-8</title>
+</head>
+<body>
+	<header class="header">
+		<div class="site-header">
+			<a class="site-header__logo" href="#">
+				<img class="site-header__picture" src="img/logo.png" alt="logo">
+				<span class="site-header__title">&nbsp;мэрри попинс</span>
+			</a>
+				<label for="nav-meny" class="site-header__btn-close" href="#"></label>
+		</div>
+		<input type="checkbox" name="nav-meny" id="nav-meny">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li>
+					<label for="sub-meny" class="navigation__item" href="#">каталог</label>
+				</li>
+				<input type="checkbox" name="sub-meny" id="sub-meny">
+				<li class="navigation__item_active">
+
+					<ul class="navigation__sub-meny">
+						<li>
+							<a class="navigation__item" href="#">механика
+							</a>
+						</li>
+						<li>
+							<a class="navigation__item" href="#">автомат
+							</a>
+						</li>
+						<li>
+							<a class="navigation__item" href="#">полуавтомат
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a class="navigation__item" href="#">новости</a>
+				</li>
+				<li>
+					<a class="navigation__item" href="#">доставка</a>
+				</li>
+				<li>
+					<a class="navigation__item" href="#">контакты</a>
+				</li>
+				<li>
+					<a class="navigation__item navigation__search" href="#">что будем искать?</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="header-cart">
+			<a class="header-cart__item navigation__cart" href="#">
+				<span class="header-cart__text">в корзине пусто
+				</span>
+			</a>
+		</div>
+	</header>
+	<div class="site-wrap">
+			<div class="slider__wrap">
+				<input type="radio" name="slider" id="switch-1" checked>
+				<input type="radio" name="slider" id="switch-2">
+				<input type="radio" name="slider" id="switch-3">
+				<img class="slide slide-1" src="img/slider.jpg">
+				<img class="slide slide-2" src="img/slider-2.png">
+				<img class="slide slide-3" src="img/slider-3.png">
+			</div>
+			<div class="slider-control">
+				<label for="switch-1" class="switcher"></label>
+				<label for="switch-2" class="switcher"></label>
+				<label for="switch-3" class="switcher"></label>
+			</div>
+		<main class="offers">
+			<article class="offer">
+				<div class="offer__wrap-logo">
+					<img class="offer__logo" src="img/umbrella-banan.jpg" alt="umbrella-banan">
+				</div>
+				<h1 class="offer__title">зонт «банан»</h1>
+				<ul class="offer__list">
+					<li class="offer__list-item">полуавтомат</li>
+					<li class="offer__list-item">жёлтый</li>
+					<li class="offer__list-item">0.4 кг</li>
+					<li class="offer__list-item">103 см</li>
+					<li class="offer__list-item offer__list-item--price">218 грн</li>
+					<li class="offer__list-item offer__list--cart">
+						<a class="offer__cart">в корзину</a>
+					</li>
+				</ul>
+			</article>
+			<article class="offer">
+				<div class="offer__wrap-logo">
+					<img class="offer__logo" src="img/umbrella-flowers.jpg" alt="umbrella-flowers">
+				</div>
+				<h1 class="offer__title">зонт с цвета...</h1>
+				<ul class="offer__list">
+					<li class="offer__list-item">автомат</li>
+					<li class="offer__list-item">розовый</li>
+					<li class="offer__list-item">0.45 кг</li>
+					<li class="offer__list-item">120 см</li>
+					<li class="offer__list-item offer__list-item--price">1600 грн</li>
+					<li class="offer__list-item offer__list--cart">
+						<a class="offer__cart">в корзину</a>
+					</li>
+				</ul>
+			</article>
+			<article class="offer">
+				<div class="offer__wrap-logo">
+					<img class="offer__logo" src="img/umbrella-map.jpg" alt="umbrella-map">
+				</div>
+				<h1 class="offer__title">зонт с картой...</h1>
+				<ul class="offer__list">
+					<li class="offer__list-item">Механика</li>
+					<li class="offer__list-item">Разноцветный</li>
+					<li class="offer__list-item">0.325 кг</li>
+					<li class="offer__list-item">120 см</li>
+					<li class="offer__list-item offer__list-item--price">725 грн</li>
+					<li class="offer__list-item offer__list--cart">
+						<a class="offer__cart">в корзину</a>
+					</li>
+				</ul>
+			</article>
+			<article class="offer">
+				<div class="offer__wrap-logo">
+					<img class="offer__logo" src="img/umbrella-butterfly.jpg" alt="umbrella-butterfly">
+				</div>
+				<h1 class="offer__title">зонт с бабоч...</h1>
+				<ul class="offer__list">
+					<li class="offer__list-item">Автомат</li>
+					<li class="offer__list-item">Разноцветный</li>
+					<li class="offer__list-item">0.45 кг</li>
+					<li class="offer__list-item">103 см</li>
+					<li class="offer__list-item offer__list-item--price">725 грн</li>
+					<li class="offer__list-item offer__list--cart">
+						<a class="offer__cart">в корзину</a>
+					</li>
+				</ul>
+			</article>
+		</main>
+		<div class="news-wrap">
+			<section class="news">
+					<div class="wrap-logo">
+						<img class="wrap-logo__picture" src="img/face.jpg" alt="face">
+					</div>
+					<div class="contact">
+						<a class="contact__clock" href="">3h ago</a>
+						<a class="contact__bubble" href="">23</a>
+					</div>
+					<h1 class="news__title">kenya gold coffee</h1>
+					<span class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</span>
+			</section>
+			<section class="news">
+					<div class="wrap-logo">
+						<img class="wrap-logo__picture" src="img/circle.jpg" alt="face">
+					</div>
+					<div class="contact">
+						<a class="contact__clock" href="">3h ago</a>
+						<a class="contact__bubble" href="">23</a>
+					</div>
+					<h1 class="news__title">kenya gold coffee</h1>
+					<span class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</span>
+			</section>
+			<section class="news">
+					<div class="wrap-logo">
+						<img class="wrap-logo__picture" src="img/hand.jpg" alt="face">
+					</div>
+					<div class="contact">
+						<a class="contact__clock" href="">3h ago</a>
+						<a class="contact__bubble" href="">23</a>
+					</div>
+					<h1 class="news__title">kenya gold coffee</h1>
+					<span class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</span>
+			</section>
+		</div>
+		<div class="author">
+			<div class="autor__wrap">
+				<div>
+					<h1 class="author__title">Подпишитесь на рассылку</h1>
+					<span class="author__text">раз в месяц присылаем подборку лучших статей из нашего блога. без спама</span>
+				</div>
+				<div>
+						<input class="autor__mail" type="name" name="answer" value="Введите свою почту">
+						<button class="author__btn">подписаться
+						</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<span>Учебный проект </span>
+		<a class="footer__link" href="">JediCSS</a>
+	</footer>
+</body>
+</html>

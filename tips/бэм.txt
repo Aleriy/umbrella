@@ -1,0 +1,53 @@
+.header                                 блок
+.site-header                            блок
+.site-header__logo                      элемент
+.site-header__picture                   элемент
+.site-header__title                     элемент
+.site-header__btn-close                 элемент
+.navigation                             блок
+.navigation__list                       элемент
+.navigation__item                       элемент
+.navigation__item_active                Булевый модификатор
+.navigation__search                     элемент
+.navigation__item--change-color         модификатор
+.navigation__cart                       элемент
+
+
+.offers                                  блок
+.offer                                   блок
+.offer__logo                             элемент
+.offer__title                            элемент
+.offer__list                             элемент
+.offer__list-item                        элемент
+.offer__list-item--price                 модификатор
+.form-button 							 блок
+.form__button  							 элемент
+.offer__cart 		                   	 элемент
+
+.news                                    блок
+.news-info                          	 блок
+.user-info__picture                  	 элемент
+.user-info__picture--corect-picture 	 модификатор
+.user-info__clock                        элемент
+.user-info__bubble						 элемент
+.news__title							 элемент
+.news__text								 элемент
+
+.author 								 блок
+.autor__wrap 							 элемент
+.author__title 							 элемент
+.author__text 							 элемент
+.autor__mail 							 элемент
+.author__btn 							 элемент
+
+.footer 								 блок
+.footer__link 							 элемент
+
+
+
+
+
+
+имя-блока
+имя__элемента
+имя-блока__имя-элемента_имя-модификатора

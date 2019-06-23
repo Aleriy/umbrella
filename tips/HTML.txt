@@ -1,0 +1,86 @@
+Прописные и строчные буквы в CSS: свойство 
+hidden
+
+Список без маркеров -  list-style-type:none; <ul type="disc | circle | square"><li></li> </ul>
+
+p, span { white-space: nowrap; }
+Это если надо, чтобы текст внутри не переносился
+
+TEXT - 
+		font-style: 
+				normal			Обычное начертание текста.
+				italic			Курсивное начертание.
+				oblique			Наклонное начертание. Курсив и 
+								наклонный шрифт при всей их похожести не одно и то же. Курсив это специальный шрифт имитирующий рукописный, наклонный же образуется путем наклона обычных знаков вправо.
+inherit							Наследует значение родителя.
+
+line-height:;   	межстрочный интервал
+normal				Расстояние между строк вычисляется автоматически.
+inherit					Наследует значение родителя.
+
+
+ 20px 20px 0px 
+
+ font-family : 'Roboto';
+
+ Убрать подчёркивание ссылок-text-decoration со значением none для селектора A.
+
+white-space - как отображать пробелы между словами
+
+text-transform:; 						
+					uppercase	 Делает заглавными (прописными) все 
+								буквы в тексте
+					lowercase	 Делает строчными все буквы в тексте
+					capitalize	 Делает заглавной первую букву каждого 			   слова в тексте
+					none		 Не делает изменений
+					inherit	     Наследует значение родителя
+
+
+					<li class="wrap__list-main-items_item">
+						В корзине пусто
+					</p>
+
+
+					https://www.youtube.com/watch?v=Q7fKlrUGXtI&feature=youtu.be
+
+					https://www.youtube.com/watch?v=S5K7sRsoONw&feature=youtu.be
+					Учимся верстать: работа с макетом
+
+
+					Масштабирование нескольких фонов
+Несколько фонов могут быть масштабированы с помощью списка значений, разделенных запятыми, идущих в том же порядке.
+
+background-size:;
+
+background-repeat: no-repeat;
+
+background-size:300px 125px;
+	background-repeat: no-repeat;
+	background-color: #c7b39b;
+	background-image: url(images/bg.gif);    
+
+background:
+  url("sheep.png") 60% 90% no-repeat,
+  url("sheep.png") 40% 50% no-repeat,
+  url("sheep.png") 10% 20% no-repeat #393;
+  background-size: 240px 210px, auto, 150px;
+
+
+  	Вы должны добавить атрибут 'type' со значением 'text/css' к элементу 'link'
+
+
+  	.ambrela {
+	margin: 10px;
+	display: flex;
+	align-items:flex-end;
+	background-size:300px 125px;
+	background-repeat: no-repeat;
+	background-color: #dfc9ef;
+	background-image: url(images/bg.gif);
+}
+
+.ambrela__text {
+	background: #f9f4fc;
+	list-style-type:none;
+	height: 135px;
+}
